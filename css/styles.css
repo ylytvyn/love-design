@@ -1,0 +1,120 @@
+:root {
+	--main-color: #464b4f;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+	height: 100%;
+	min-width: 1000px;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.design-header {
+	background: #23232e;
+	padding: 80px 0 50px;
+	text-align: center;
+	color: #fff;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.design-logo {
+	display: block;
+	width: 160px;
+	height: 160px;
+	margin: 0 auto 170px;
+	background: url('../images/logo.png') no-repeat;
+	background-size: cover;
+	transition: all .3s;
+}
+
+.design-logo:hover {
+	transform: scale(.9);
+}
+
+.design-header h1 {
+	font-size: 80px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.design-header p {
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0 30%;
+	margin-bottom: 175px;
+}
+
+.design-arrow {
+	display: block;
+	width: 45px;
+	height: 45px;
+	margin: 0 auto;
+	background-image: url('../images/arrow.png');
+	background-size: contain;
+	transition: all .3s;
+}
+
+.design-arrow:hover {
+	transform: scale(.85);
+}
+
+.design-info {
+	background: #fff url('../images/bg.jpg') top center no-repeat;
+	padding: 115px 0;
+}
+
+.design-author {
+	margin-bottom: 90px;
+}
+
+.design-author p {
+	font-size: 30px;
+	line-height: 42px;
+	color: var(--main-color);
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.design-work h2 {
+	font-size: 80px;
+	font-weight: 700;
+	color: var(--main-color);
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+.design-work li {
+	display: inline-block;
+	width: 30%;
+	margin-right: 4%;
+	color: var(--main-color);
+}
+
+.design-work li:last-child {
+	margin-right: 0;
+}
+
+.design-work li h3 {
+	font-size: 18px;
+	line-height: 42px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.design-work li p {
+	font-size: 18px;
+	line-height: 30px;
+	color: #888a8b;
+}
